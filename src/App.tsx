@@ -3,6 +3,7 @@ import { UserForm, NameList } from "./examples/UseReducer";
 import { PracticeUseMemo } from "./examples/UseMemo";
 import { PracticeUseCallback } from "./examples/UseCallback";
 import { UseEffectPractice } from "./examples/UseEffect";
+import { PracticeUseRef } from "./examples/UseRef";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <UserForm/>
       <NameList/>
       <UseEffectPractice/>
+      <PracticeUseRef/>
     </div>
   )
 }
